@@ -1,7 +1,10 @@
 .nav{
 	text-align: center;
 	background-color: #333;
+	position: fixed;
+	width: 100%;
 	color: white;
+	top:0;
 }
 .navBtn button{
 	padding: 20px 40px;
@@ -34,7 +37,7 @@ button:hover{
 	color: #333;
 }
 .content{
-	margin-top: 50px;
+	margin-top: 200px;
 }
 img{
 	height: 400px;
