@@ -1,0 +1,53 @@
+.container{
+	padding: 150px 70px;
+}
+body{
+	text-align: center;
+}
+button{
+	padding: 15px 40px;
+	color: white;
+	background-color: green;
+	border: none;
+	cursor: pointer;
+	margin-right: 40px;
+}
+button:hover{
+	background-color: #111;
+}
+.btn{
+	padding: 50px;
+}
+.btn button{
+	margin-left: 20px;
+}
+.content{
+	display: none;
+}
+#login input{
+	border: none;
+	border-bottom: 1px solid #888;
+	padding: 20px 70px;
+	text-align: center;
+	transition: 10s ease;
+}
+#login input:hover{
+	border-bottom: none;
+	transition: 10s ease;
+}
+#signup form{
+	margin-left: 30%;
+	margin-top: 40px;
+}
+#signup label{
+	width: 30%;
+}
+#signup input{
+	width: 40%;
+	height: 50px;
+
+}
+
+#signup button{
+	margin-left: 200px;
+}

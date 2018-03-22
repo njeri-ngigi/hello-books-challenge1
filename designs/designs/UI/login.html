@@ -4,63 +4,11 @@
 
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+
+	<script src="javascript/login.js"></script>
 </head>
 
-<style type="text/css">
-.container{
-	padding: 100px 70px;
-}
-body{
-	text-align: center;
-
-}
-button{
-	padding: 15px 40px;
-	color: white;
-	background-color: #333;
-	border: none;
-	cursor: pointer;
-}
-button:hover{
-	background-color: #999;
-}
-.btn{
-	padding: 50px;
-}
-.btn button{
-	margin-left: 20px;
-}
-.content{
-	display: none;
-}
-#login input{
-	border: none;
-	border-bottom: 1px solid #888;
-	padding: 20px 70px;
-	text-align: center;
-	transition: 10s ease;
-}
-#login input:hover{
-	border-bottom: none;
-	transition: 10s ease;
-}
-#signup form{
-	margin-left: 30%;
-	margin-top: 40px;
-}
-#signup label{
-	width: 30%;
-}
-#signup input{
-	width: 40%;
-	height: 50px;
-
-}
-
-#signup button{
-	margin-left: 200px;
-}
-</style>
 <body>
 
 	<div class="container">
@@ -114,20 +62,6 @@ button:hover{
 		</div>
 	</div>
 
-	<script type="text/javascript">
 	
-	function display(id){
-		if (id=="login"){
-			document.getElementById('signup').style.display='none'
-		}
-		if (id=="signup"){
-			document.getElementById('login').style.display='none'
-		}
-		document.getElementById(id).style.display='block'
-		document.getElementById("welcome").style.display='none'
-
-
-	}
-	</script>
 </body>
 </html>

@@ -1,0 +1,128 @@
+.nav{
+	text-align: center;
+	background-color: #333;
+	color: white;
+}
+.navBtn button{
+	padding: 20px 40px;
+	width: 19.5%;
+	border: none;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+}
+#active {
+	background-color: green;
+}
+#active:hover{
+	opacity: 0.8;
+}
+button:hover{
+	background-color: #666;
+}
+.logout {
+	background-color: #333;
+	color: white;
+	padding: 7px 12px;
+	margin-left: 1200px; 
+	border-radius: 5%;
+	border: 2px solid white;
+	font-weight: bold;
+}
+.logout:hover{
+	background-color: white;
+	color: #333;
+}
+
+.sidenav{
+	height: 100%;
+	width: 400px;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	overflow-x: none;
+	border-right: 1px solid #333;
+	box-shadow: 1px 1px 3px grey;
+	text-align: center;
+}
+
+.sidenav img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px grey;
+}
+.sidenav img:hover{
+	opacity: 0.8;
+}
+.details{
+	padding-top: 20px;
+	font-size: 1.2em;
+}
+
+.sidenav button, #edit button{
+	padding: 10px 40px;
+	border: none;
+	color: white;
+	background-color: green;
+}
+.sidenav button:hover, #edit button:hover{
+	background-color: #111;
+}
+.main{
+	margin-left: 400px;
+	padding: 60px;
+}
+#edit{
+	margin-left: 50px;
+}
+#edit form{
+	margin-left: 30%;
+	margin-top: 40px;
+}
+#edit input{
+	border: none;
+	border-bottom: 1px solid #888;
+	padding: 15px 40px;
+
+}
+#edit label{
+	width: 20%;
+}
+
+
+#edit button{
+	margin-top: 40px;
+
+}
+#returnBooks{
+	width: 100%;
+}
+#returnBooks td, #returnBooks th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#returnBooks tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+#returnBooks th{
+	background-color: #222;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#returnBooks button{
+	border: none;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+}
+#returnBooks button:hover{
+	background-color: #111;
+}
+
+#edit{
+	display: none;
+
+}

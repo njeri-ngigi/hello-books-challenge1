@@ -1,0 +1,106 @@
+.nav{
+	text-align: center;
+	background-color: #333;
+	color: white;
+	position: fixed;
+	overflow: hidden;
+	width:100%;
+}
+.navBtn button{
+	padding: 20px 40px;
+	width: 19.5%;
+	border: none;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+}
+#active {
+	background-color: green;
+}
+#active:hover{
+	opacity: 0.8;
+}
+button:hover{
+	background-color: #666;
+}
+.sidenav{
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 100px;
+	margin-top: 167px;
+	box-shadow: 1px 1px 1px #333;
+
+
+}
+h2{
+	color: green;
+	
+}
+.main h4{
+	text-decoration: underline;
+}
+.sidenav a{
+	padding: 6px 20px 30px 16px;
+	text-decoration: none;
+	font-size: 2em;
+	display: block;
+	color: green;
+}
+.sidenav a:hover{
+	color: black;
+	opacity: 0.8;
+}
+.main{
+	margin-left: 250px;
+	font-size: 1.5em;
+	padding-top: 150px;
+	padding-left: 50px;
+}
+.content{
+	padding-bottom: 50px;
+}
+img{
+	width: 150px;
+	height: 120px;
+	margin-right: 10px;
+}
+
+img:hover{
+	opacity: 0.7;
+}
+.container{
+	padding-top: 30px;
+	
+}
+
+footer{
+	background-color: #333;
+	text-align: center;
+	margin-bottom:0;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	z-index: 99;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+
+}
+.logout {
+	background-color: #333;
+	color: white;
+	padding: 7px 12px;
+	margin-left: 1200px; 
+	border-radius: 5%;
+	border: 2px solid white;
+	font-weight: bold;
+}
+.logout:hover{
+	background-color: white;
+	color: #333;
+}
