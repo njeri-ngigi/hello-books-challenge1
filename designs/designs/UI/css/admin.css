@@ -31,6 +31,8 @@ h1.nav{
 	margin-left: 25px;
 	margin-top: 40px;
 	cursor: pointer;
+	font-family: Amatic SC;
+	font-size: 1.3em;
 }
 
 .content{
@@ -71,6 +73,9 @@ img{
 	color: white;
 	background-color: green;
 	margin-left: 250px;
+	width: 20%;
+	font-family: Amatic SC;
+	font-size: 1.3em;
 }
 button:hover, #newBook button:hover{
 	background-color: #111;
@@ -86,14 +91,19 @@ p{
 	margin-left: 40%;
 	font-size: 1.3em;
 }
+.notes p{
+	font-family: Josefin Sans;
+}
 h4{
 	font-weight: bold;
+	font-family: Josefin Sans;
 }
 .content img{
 	margin-left: 300px;
 }
 .text{
 	text-align: center;
+	font-family: Knewave;
 }
 footer{
 	background-color: #333;
@@ -102,6 +112,7 @@ footer{
 	color: white;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	font-family: Seaweed Script;
 	
 }
 footer a{

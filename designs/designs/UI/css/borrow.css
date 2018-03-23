@@ -28,10 +28,11 @@ button:hover{
 	background-color: #333;
 	color: white;
 	padding: 7px 12px;
-	margin-left: 1200px; 
+	margin-left: 85%; 
 	border-radius: 5%;
 	border: 2px solid white;
 	font-weight: bold;
+
 }
 .logout:hover{
 	background-color: white;
@@ -62,7 +63,6 @@ img{
 div.notes{
 	margin-top: 20px;
 	width: 500px;
-	background-color: ;
 }
 
 p{
