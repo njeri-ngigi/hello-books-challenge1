@@ -35,9 +35,13 @@ button:hover{
 	border-bottom: none;
 	transition: 10s ease;
 }
+#btnLogin{
+	margin-left: 40px;
+}
 #signup form{
 	margin-left: 30%;
 	margin-top: 40px;
+	font-size: 1.3em;
 }
 #signup label{
 	width: 30%;
@@ -49,5 +53,8 @@ button:hover{
 }
 
 #signup button{
-	margin-left: 200px;
+	margin-left: 160px;
+}
+button{
+	font-size: 1.3em;
 }

@@ -6,38 +6,42 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 
+	<link href="https://fonts.googleapis.com/css?family=Seaweed+Script|Satisfy|Permanent+Marker|Pacifico|Knewave|Fascinate|Ceviche+One|Barrio|Lobster|Amatic+SC" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+
 	<script src="javascript/login.js"></script>
 </head>
 
 <body>
 
 	<div class="container">
-		<h1>HELLO BOOKS</h1><br><br>
+		<h1 class="fascinate">HELLO BOOKS</h1><br><br>
 		<div class="welcome" id="welcome">
-			<h3>WELCOME</h3>
+			<h3 class="fascinate">WELCOME</h3>
 			
-			<div class="btn">
+			<div class="btn amaticSC">
 			<button onclick="display('login')">Login</button>
 			<button onclick="display('signup')">Signup</button>
 			</div>
 		</div>
 
 		<div class="content" id="login">
-			<h2>Log In</h2>
-			<form id="content" class="loginForm">
+			<h2 class="barrio">Log In</h2>
+			<form id="content" class="loginForm cevicheOne">
 				
 				<input id="name" type="text" placeholder="Enter username" required="*"><br><br>
 
 				<input id="password" type="password" placeholder="Enter password"><br><br>
 
-				<button type="submit" id="btnLogin">Login</button>
+				<button class="amaticSC" type="submit" id="btnLogin">Login</button>
 			</form>
-			<p>Don't have an account?<u><span onclick="display('signup')" style="cursor:pointer">Sign Up</span></u></p>
+			<p class="cevicheOne">Don't have an account?<u><span onclick="display('signup')" style="cursor:pointer">Sign Up</span></u></p>
 		</div>
 
 		<div class="content" id="signup">
-			<h2>Sign Up</h2>
-			<form id="registrationForm" nonvalidate style="text-align:left">
+			<h2 class="barrio">Sign Up</h2>
+			<form id="registrationForm" nonvalidate style="text-align:left" class="cevicheOne">
 				<label for='"fname"'>First Name:</label>
 				<input id="name" type="text" required="*"><br><br>
 
@@ -56,9 +60,9 @@
 				<label for='"password"'>Confirm Password:</label>
 				<input id="cPassword" type="password" placeholder="Re-enter password" ><br><br><br>
 
-				<button type="submit">Sign Up</button>
+				<button type="submit" class="amaticSC">Sign Up</button>
 			</form><br>
-			<p>Already have an account?<u><span onclick="display('login')" style="cursor:pointer">Log in</span></u></p>
+			<p class="cevicheOne">Already have an account?<u><span onclick="display('login')" style="cursor:pointer">Log in</span></u></p>
 		</div>
 	</div>
 
