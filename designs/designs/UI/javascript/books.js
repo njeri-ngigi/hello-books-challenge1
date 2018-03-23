@@ -3,3 +3,4 @@ function scroll_to_div (div_id){
     scrollTop: $("#"+div_id).offset().top
   },'slow');
 }
+

@@ -1,7 +1,10 @@
 .nav{
 	text-align: center;
 	background-color: #333;
+	position: fixed;
+	width: 100%;
 	color: white;
+	top:0;
 }
 .navBtn button{
 	padding: 20px 40px;
@@ -10,6 +13,7 @@
 	background-color: #333;
 	color: white;
 	cursor: pointer;
+	font-family: Lobster;
 }
 #active {
 	background-color: green;
@@ -24,17 +28,18 @@ button:hover{
 	background-color: #333;
 	color: white;
 	padding: 7px 12px;
-	margin-left: 1200px; 
+	margin-left: 85%; 
 	border-radius: 5%;
 	border: 2px solid white;
 	font-weight: bold;
+
 }
 .logout:hover{
 	background-color: white;
 	color: #333;
 }
 .content{
-	margin-top: 50px;
+	margin-top: 200px;
 }
 img{
 	height: 400px;
@@ -43,27 +48,33 @@ img{
 }
 .content button{
 	padding: 20px 70px;
+	width: 20%;
 	border: none;
 	color: white;
 	background-color: green;
 	margin-left: 200px;
+	font-family: Amatic SC;
+	font-size: 1.3em;
+	text-align: center;
 }
 .content button:hover{
 	background-color: #111;
 }
 div.notes{
 	margin-top: 20px;
-	
 	width: 500px;
-	background-color: ;
 }
 
 p{
 	margin-left: 40%;
 	font-size: 1.3em;
 }
+.notes p{
+	font-family: Josefin Sans;
+}
 h4{
 	font-weight: bold;
+	font-family: Josefin Sans;
 }
 .content{
 	padding-bottom: 40px;
@@ -73,6 +84,7 @@ h4{
 }
 .text{
 	text-align: center;
+	font-family: Knewave;
 }
 footer{
 	background-color: #333;
@@ -81,6 +93,7 @@ footer{
 	color: white;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	font-family: Seaweed Script;
 }
 footer a{
 	text-decoration: none;
